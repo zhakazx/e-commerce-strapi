@@ -2,7 +2,8 @@
     height: calc(100vh - 80px);
     width: 100vw;
     position: relative;
-
+    overflow: hidden;
+    
     .container {
         width: 300vw; // Cuz we have 3 images
         height: 100vh;
@@ -16,7 +17,7 @@
             object-fit: cover;
         }
     }
-
+ 
     .icons {
         width: fit-content;
         display: flex;
